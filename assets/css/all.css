@@ -1,0 +1,250 @@
+
+/*popular medium css starts here*/
+.sec-header {
+	border-bottom: 1px solid rgba(0,0,0,.15)!important;
+}
+.sec-header span{
+	padding-bottom: 15px;
+    display: block;
+    border-bottom: 1px solid rgba(0,0,0,.54)!important;
+    width: 160px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.sec-body {
+	/*padding: 15px;*/
+}
+.card-main {
+	border:1px solid rgba(0,0,0,.1);
+	border-radius: 2px;
+	background-color:#fff;
+	margin-bottom: 20px;
+}
+.mem-blog-info{
+	padding-bottom: 60px;
+}
+
+.c-img:hover img {
+-webkit-transform:scale(1.3);
+transform:scale(1.3);
+}
+.c-img {
+overflow:hidden;
+width: 100%;
+height: 258px;
+}
+.c-img img {
+width: 100%;
+height: 258px;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+filter: none; 
+-webkit-filter: blur(0px); 
+-moz-filter: blur(0px); 
+-ms-filter: blur(0px);
+filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='0');
+}
+/*
+.c-img  img{
+    width: 100%;
+    height: 258px;
+}*/
+
+}
+
+.c-img  img:hover{
+    opacity: 0.85;
+    transition: 0.3s;
+}
+
+.c-data {
+	padding: 15px;
+}
+.c-data-dec {
+	font-style: normal;
+    letter-spacing: 0;
+    font-size: 14px;
+    line-height: 20px;
+}
+.c-data-dec a{
+	text-decoration: none;
+	color: rgba(0,0,0,.54)!important
+}
+.mem-info{
+    position: relative;
+}
+
+.mem-info-data {
+   white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.media-body h5{
+	    font-size: 14px;
+    margin-bottom: 2px;
+    font-weight: normal;
+}
+.media-body .mdate-o {
+    font-size: 13px;
+    font-weight: 100;
+    color: #636c72;
+}
+.media-body .mem-bm{
+	font-size: 25px;
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    bottom: -5px;
+    font-weight: lighter;
+    color: rgba(43, 43, 43, 0.5);
+    cursor: pointer;
+}
+.media-body .mem-bm:hover{
+    color: rgb(43, 43, 43);
+    cursor: pointer;
+}
+/*popular medium css ends here*/
+
+/*header css starts here*/
+a:hover{
+	color: #59323C;
+	text-decoration: none;
+}
+a{
+	color: #000;
+}
+
+.affix {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999 !important;
+}
+.affix .navbar-nav{
+    width: 1078px;
+    margin: 0 auto;
+}
+.text-theme{
+	color: #59323C;
+	font-weight: 700;
+}
+.about-membership{
+	line-height: 35px;
+}
+.search-form span.zmdi{
+	position: relative;
+    right: -5px;
+    top: -3px;
+}
+.search-form .custom-form-control{
+	display: inline-block;
+    cursor: pointer;
+    width: 5%;
+    border: none;
+    font-size: 14px;
+    margin-left: 0;
+    /* padding: 3px 15px; */
+    border-radius: 0;
+    /* border-bottom: 1px solid gainsboro; */
+    transition: 1s;
+    vertical-align: middle;
+}
+.search-form .custom-form-control:focus{
+    object-fit: fill;
+	border-bottom: 1px solid #d6d4d5;
+	width: auto;
+	cursor: text;
+}
+
+.sign-in-link {
+	color: #8C6954!important;
+	font-size: 14px;
+}
+.get-start{
+	border-color: #806954;
+	color: #8C6954!important;
+	border-radius: 0px;
+}
+
+.get-start:hover,
+.get-start:focus,
+.get-start:active{
+	color: #fff!important;
+	background: #59323C;
+	border-color: #59323C;
+	box-shadow: none;
+}
+
+.bg-theme{
+	background: #59323C;
+}
+.custom-nav-link{
+    padding-left: 10px!important;
+    padding-right: 10px !important;
+    color: #ffffff !important;
+    opacity: 0.8;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.custom-nav-link:hover,
+.custom-nav-link.active{
+	opacity: 1;
+	border-bottom: 2px solid #fff;
+}
+
+/*header css ends here*/
+
+/*story page css starts here*/
+.member-preview {
+	padding-top: 20px !important;
+	padding-bottom: 15px !important;
+	line-height: 20px;
+	font-size: 16px;
+	border-bottom: 1px solid #ddd;
+}
+.about-story-writer{
+	padding-top: 35px;
+}
+.avatar-img{
+	width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    display: inline-block;
+}
+
+.follow-btn{
+	padding: 1px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+}
+.profile-img{
+	display: table-cell;
+	vertical-align: middle;
+}
+.about-story {
+	display: table-cell;
+	padding-left: 15px;
+}
+.story-image{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.story-description{
+	margin-bottom: 80px;
+}
+.note-point{
+	background: rgba(0,0,0,.05);
+    padding: 20px;
+    white-space: pre-wrap;
+    margin-top: 44px;
+    margin-bottom: 30px;
+}
+.story-description p{
+	font-size: 21px;
+}
+/*story page css ends here*/
